@@ -10,9 +10,16 @@ int main(){
 	double ha1,ha2,ha3;
 	
 	// SETTING PRESISI DESIMAL
-	cout.setf(ios::fixed);
-	cout.setf(ios::showpoint);
-	cout.precision(4);
+	cout.setf(ios::fixed);cout.setf(ios::showpoint);cout.precision(4);
+			
+	// MENAMPILKAN NILAI
+	cout << "MATRIKS X :"<<endl;
+	for(int i=0;i<3;i++){
+		for(int j=0;j<5;j++){
+			cout<< a[i][j] <<" | ";
+		}
+		cout<<endl;
+	}
 
 	// ISI DATA
 	w1=5;
