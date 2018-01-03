@@ -4,20 +4,9 @@ using namespace std;
 
 int main(){
 	// DEKLARASI VARIABEL
-	double a1c1,a1c2,a1c3,a1c4,a1c5;
-	double a2c1,a2c2,a2c3,a2c4,a2c5;
-	double a3c1,a3c2,a3c3,a3c4,a3c5;
-	
-	double Ra1c1,Ra1c2,Ra1c3,Ra1c4,Ra1c5;
-	double Ra2c1,Ra2c2,Ra2c3,Ra2c4,Ra2c5;
-	double Ra3c1,Ra3c2,Ra3c3,Ra3c4,Ra3c5;
-	
-	double RWa1c1,RWa1c2,RWa1c3,RWa1c4,RWa1c5;
-	double RWa2c1,RWa2c2,RWa2c3,RWa2c4,RWa2c5;
-	double RWa3c1,RWa3c2,RWa3c3,RWa3c4,RWa3c5;
+	double a[3][5]={{4,4,5,3,3},{3,3,4,2,3},{5,4,2,2,2}};
 		
-	double w1,w2,w3,w4,w5;
-	double mc1,mc2,mc3,mc4,mc5;
+	double w[5]={5,3,4,4,2};
 	double ha1,ha2,ha3;
 	
 	// SETTING PRESISI DESIMAL
