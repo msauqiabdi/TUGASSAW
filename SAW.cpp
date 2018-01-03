@@ -42,24 +42,13 @@ int main(){
 	}
 	cout<<endl;
 	
-	// BUAT MATRIKS R
-	Ra1c1 = (a1c1/mc1);
-	Ra1c2 = (a1c2/mc2);
-	Ra1c3 = (a1c3/mc3);
-	Ra1c4 = (a1c4/mc4);
-	Ra1c5 = (a1c5/mc5);
-	
-	Ra2c1 = (a2c1/mc1);
-	Ra2c2 = (a2c2/mc2);
-	Ra2c3 = (a2c3/mc3);
-	Ra2c4 = (a2c4/mc4);
-	Ra2c5 = (a2c5/mc5);
-	
-	Ra3c1 = (a3c1/mc1);
-	Ra3c2 = (a3c2/mc2);
-	Ra3c3 = (a3c3/mc3);
-	Ra3c4 = (a3c4/mc4);
-	Ra3c5 = (a3c5/mc5);
+	// MENAMPILKAN NILAI W
+		cout << "BOBOT W :"<<endl;
+		for(int i=0;i<5;i++){
+			cout<< w[i] <<" | ";
+		}
+		cout << endl;
+		cout << endl;	
 	
 	// MATRIKS R * W
 	RWa1c1 = Ra1c1*w1;
